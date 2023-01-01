@@ -183,7 +183,112 @@ body {
 /** Footer end **/
 
 /** Gallery Page Start **/
+#wrapper h1,#wrapper h2,#wrapper h3,#wrapper h4,#wrapper h5 {
+  color:#9b242d;
+}
+#wrapper #page-heading {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
 
+#wrapper h2 {
+font-family: 'Roboto',Arial, Helvetica, sans-serif;
+font-size:14px;
+height:20px;
+color:#9b242d;
+}
+
+#wrapper h2 span {
+display:inline-block;
+color:#fff;
+background:#9b242d;
+padding:2px 6px 3px 6px;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+margin-right:10px;
+}
+
+#wrapper{
+  padding:60px 0 0 0;
+}
+#wrapper .row {
+  color:#000;
+  font-size:10px;
+  font-weight:200;
+}
+
+#wrapper h4 {
+  display:inline-block;
+  margin-bottom:40px;
+  font-weight:500;
+  padding:15px 30px 15px 30px;
+}
+
+#wrapper a {
+   outline: 0 !important;
+}
+
+#wrapper .col-md-4{
+  font-weight:500;
+  margin-bottom:40px;
+}
+
+#wrapper .col-md-4 img {
+  width:96%;
+  height:auto;
+  margin-bottom:40px;
+  border-radius:0px;
+  -moz-border-radius:0;
+  -webkit-border-radius:0;
+  outline:none;
+  
+  
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  
+  -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:    10px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow:         10px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+#wrapper .col-md-4:hover img {
+  background:#9b242d;
+  opacity:.8; 
+  -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow:    10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  box-shadow:         10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+#wrapper .col-md-4:hover h2 {
+  color:#000;
+}
+
+#wrapper .label {
+color:#fff;
+background:#9b242d;
+font-weight:800;
+padding:2px 2px 2px 4px;
+margin-right:10px;
+}
+
+
+#wrapper .img-responsive {
+  margin:0 auto;
+}
+
+#wrapper .col-md-4 h2,
+#wrapper .col-md-4 img,
+#wrapper h2:before,#wrapper h2:after {
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition:.5s;
+ outline: none;
+}
 
 /** Gallery Page end **/
 
