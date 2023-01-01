@@ -417,6 +417,7 @@ transition:.5s;
     border-radius: 10px;
     text-align: center;
     border:5px solid #9b242d;
+    margin-bottom: 10px;
 
 }
 .scanner:hover {
@@ -457,7 +458,18 @@ transition:.5s;
     color: #9b242d;
     margin-bottom: 15px;
 }
-
+.scanner .quote {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.scanner p {
+  text-align: right;
+  color: #000;
+  font-style: italic;
+}
 
 /** Donate Page end **/
 
