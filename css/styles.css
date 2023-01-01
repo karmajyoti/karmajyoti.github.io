@@ -377,8 +377,34 @@ transition:.5s;
 /** About Page end **/
 
 /** Contact Page Start **/
+#contact_us {
+  margin-top: 30px;
+}
 
-
+#contact_us .options {
+  height: 220px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 20px 15px 30px;
+  border-radius: 15px;
+  text-align: left;
+  border:3px solid #9b242d;
+  color: #9b242d;
+  overflow: auto;
+}
+#contact_us h3 {
+  text-transform: capitalize;
+  color: #000;
+  font-size: 20px;
+}
+.options a:link, .options a:visited, .options a:hover, .options a:focus, .options a:active {
+  text-decoration: none;
+}
+.options a {
+  text-transform: lowercase;
+  color: #9b242d;
+}
 /** Contact Page end **/
 
 /** Donate Page Start **/
