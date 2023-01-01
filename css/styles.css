@@ -382,6 +382,55 @@ transition:.5s;
 /** Contact Page end **/
 
 /** Donate Page Start **/
+.payment {
+    margin-top:70px;
+}
+ 
+.scanner {
+    padding: 20px 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    border:5px solid #9b242d;
+
+}
+.scanner:hover {
+  transition: .5s;
+  box-shadow: 0px 1px 5px 0px #d1d1d1;
+}
+.scanner .pic {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background: #bebebe;
+    padding: 5px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease 0s;
+    border-radius: 10px;
+}
+.scanner:hover .pic {
+    background: #9b242d;
+    border-radius: 10px;
+}
+.scanner .pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.scanner .title {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+.scanner .upi_id {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    color: #9b242d;
+    margin-bottom: 15px;
+}
 
 
 /** Donate Page end **/
@@ -439,6 +488,15 @@ transition:.5s;
     border: 2px solid #000;
     background-color: #9b242d;
     color: #ffffe0;
+  }
+  #donate-btn_active > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #000;
+    background-color: #ffffe0;
+    color: #9b242d;
   }
   #xs-love {
     color: #000;
