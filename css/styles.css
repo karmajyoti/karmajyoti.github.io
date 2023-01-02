@@ -283,7 +283,7 @@ transition:.5s;
 
 /** Gallery Page end **/
 
-/** About Page Start **/
+/** About & Team Pages Start **/
 .about {
     margin-top:70px;
     background: #ffffe0;
@@ -298,6 +298,10 @@ transition:.5s;
     border:3px solid #9b242d;
 
 }
+.about .col-md-6 .our-team {
+  height: 180px;
+}
+
 .our-team:hover {
   transition: .5s;
   box-shadow: 0px 1px 5px 0px #d1d1d1;
