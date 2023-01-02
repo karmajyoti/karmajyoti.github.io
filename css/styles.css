@@ -299,7 +299,12 @@ transition:.5s;
 
 }
 .about .col-md-6 .our-team {
-  height: 180px;
+  height: 190px;
+  overflow: auto;
+}
+#centres .col-md-3 .our-team {
+  height: 150px;
+  overflow: auto;
 }
 
 .our-team:hover {
