@@ -137,6 +137,7 @@ body {
   opacity: .8;
 }
 #home-tiles #ad {
+  overflow: auto;
   color: #ffffff;
   font-size: 1em;
   text-align: center;
