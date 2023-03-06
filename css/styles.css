@@ -136,6 +136,14 @@ body {
   color: #fff;
   opacity: .8;
 }
+#home-tiles #ad {
+  color: #ffffff;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  -webkit-text-stroke: 0.3px yellow;
+}
 /** Homepage end **/
 
 /** Footer start **/
