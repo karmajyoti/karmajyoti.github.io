@@ -117,7 +117,7 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #news-tile {
-  background: url('../images/news-tile.jpg') no-repeat;
+  background: url('../images/IMG_3168\ \(2\).JPG') no-repeat;
   background-position: center;
 }
 #events-tile {
@@ -138,11 +138,17 @@ body {
 }
 #home-tiles #ad {
   color: #ffffff;
-  font-size: 1em;
+  font-size: 3rem;
   text-align: center;
   font-weight: bold;
   margin-top: 20px;
   -webkit-text-stroke: 0.3px yellow;
+}
+
+@media (max-width:700px){
+  #home-tiles #ad {
+    font-size: 2rem;
+  }
 }
 /** Homepage end **/
 
