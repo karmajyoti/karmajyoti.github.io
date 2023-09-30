@@ -362,6 +362,7 @@ transition:.5s;
 .our-team .social li {
     display: inline-block;
     margin-right: 5px;
+    text-decoration: none;
 }
 .our-team .social li a {
     display: block;
@@ -373,10 +374,12 @@ transition:.5s;
     color: #9b242d;
     border: 1px solid #9b242d;
     transition: all 0.5s ease 0s;
+    text-decoration: none;
 }
 .our-team:hover .social li a {
     background: #9b242d;
     color: #fff;
+    text-decoration: none;
 }
 @media only screen and (max-width: 990px) {
     .our-team{ margin-bottom: 30px; }
@@ -643,6 +646,23 @@ align-items: center;
  
 
 }
+ #social_media li {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid #9b242d;
+  background: #fff;
+}
+#social_media li a{
+  position: relative;
+  right: -5px;
+  top: 3px;
+}
+#social_media{
+  position: relative;
+  right: 10px;
+  
+}
 #alumini span:hover{
   height: 90px;
   width: 90px;
@@ -773,6 +793,7 @@ width: 35px;
     font-size: small;
     display: inline-block;
     margin-right: 15px;
+    
   }
   #social_media li a{
     display: block;
@@ -797,6 +818,7 @@ width: 35px;
   width: 20px;
   height: 20px;
   border-radius: 50%;
+  text-decoration: none;
 
 }
 @media (max-width:1120px) {
@@ -828,4 +850,212 @@ width: 35px;
   
   }
 
+}
+
+/* content and branding*/
+
+.content{
+  
+  width: 100%vw;
+  height: 500px;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   flex-direction: column; 
+  flex-wrap: wrap;
+  
+}
+.cont2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:40px;
+}
+.cont span{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+border: 2px solid white;
+  
+}
+.cont span img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  
+}
+.content ul{
+  position: relative;
+  right: 10px;
+}
+.cont ul li{
+  display: inline-block;
+  /* background: #9b242d; */
+  margin-right: 20px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  /* background: #9b242d; */
+  border: 2px solid #9b242d;
+  
+}
+.cont ul li a{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: -3px;
+  top: 3px;
+  color: #9b242d;
+}
+
+.cont img:hover{
+      border: 6px solid green;
+}
+.cont h3:hover{
+    font-weight: bold;
+}
+.cont ul li:hover{
+  background: #9b242d;
+  
+}
+.cont ul li a:hover{
+  color: white;
+  text-decoration: none;
+}
+.content h1{
+  
+  position: relative;
+  top: -70px;
+  color: #9b242d;
+  font-weight: bold;
+}
+.content h1:hover{
+  font-weight: bold;
+}
+.content h4{
+  position: relative;
+  top: -7px;
+  color: #9b242d;
+  
+}
+.cont h3{
+  color: #000;
+}
+.content h4:hover{
+  font-weight: bold;
+}
+@media (max-width:1100px) {
+            .content{
+              height: 700px;
+            }
+            .content h4:hover{
+              font-weight: bold;
+            }
+            .content h1:hover{
+              font-weight: bold;
+            }
+           
+.cont img:hover{
+  border: 3px solid green;
+}
+.cont h3:hover{
+font-weight: bold;
+}
+
+}
+@media (max-width:650px) {
+  .content{
+    height: 1000px;
+  }
+  .content h4:hover{
+    font-weight: bold;
+  }
+  
+  .content h1:hover{
+    font-weight: bold;
+  }
+  
+.cont img:hover{
+  border: 3px solid green;
+}
+.cont h3:hover{
+font-weight: bold;
+}
+
+
+}
+@media (max-width:453px) {
+  .content{
+    height: 1100px;
+  }
+  .content h4:hover{
+    font-weight: bold;
+  }
+  
+.cont img:hover{
+  border: 3px solid green;
+}
+.cont h3:hover{
+font-weight: bold;
+}
+  
+  .content h1:hover{
+    font-weight: bold;
+  }
+  .content span{
+    width: 50px;
+    height: 50px;
+  }
+  .content span img{
+    width: 50px;
+    height: 50px;
+  }
+  .content h1{
+    font-size: large;
+  }
+  .cont h3{
+    transform: scale(0.9);
+  }
+  .cont ul li a{
+    display: inline-block;
+    /* background: #9b242d; */
+    margin-right: 20px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative;
+    top:0px
+    
+  }
+  .cont ul{
+    position: relative;
+    right: 10px;
+  }
+}
+@media (max-width:420px){
+  .content{
+    height: 1300px;
+  }
 }
